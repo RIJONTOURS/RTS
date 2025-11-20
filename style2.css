@@ -1,0 +1,71 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.home-icon {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin-top: 35px;
+    color: #00FF00; /* bright green */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    color: white;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+.submit-btn {
+    margin-top: 40px;
+    width: 100%;
+    padding: 15px;
+    background: aqua; /* aqua button */
+    color: black;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+    align-items: center
+}

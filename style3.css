@@ -1,0 +1,28 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    color: #00FF00;   /* Neon green text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 40%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 150px;
+}
+
+.home-btn {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}

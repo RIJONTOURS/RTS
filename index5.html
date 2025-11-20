@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIJON TOUR SERVICE Services</title>
+      <link rel="stylesheet" href="style5.css">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        // Using a bright red for the main service name, similar to the image
+                        'bright-red': '#FF0000',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Ensure the body is full height for centering and black background */
+        body {
+            min-height: 100vh;
+        }
+        /* Custom style for the home icon to apply a subtle white glow */
+        .home-icon {
+            filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
+        }
+        /* Style for the text to match the bold, high-contrast look */
+        .page-text {
+            /* Using a combination of utilities and custom styles for the bold, blocky font */
+            font-family: 'Inter', sans-serif;
+            font-weight: 700; /* Bold weight */
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-sans flex flex-col items-center justify-between p-8">
+
+    <!-- Main Content Container -->
+    <div class="w-full max-w-lg text-center space-y-12 mt-10">
+
+        <!-- Description Section -->
+        <div class="px-4">
+            <p class="page-text text-xl sm:text-2xl leading-relaxed">
+                <span class="text-bright-red font-extrabold">RIJON TOUR SERVICE</span> is a travel agency over inside country and outside country like India, Bhutan, etc. We provide BUS, Scorpio, micro, etc
+            </p>
+        </div>
+
+        <!-- Vehicle Images Section -->
+        <div class="space-y-8">
+            <!-- Image 1: Bus Placeholder -->
+            <img src="c:\Users\Lenovo\OneDrive\Tài liệu\Desktop\Rijon Tour Service\RTS liberty logo.png"
+                 alt="Image of a Riyon Tour Service Bus"
+                 class="w-full max-w-xs mx-auto rounded-lg shadow-2xl shadow-blue-500/50"
+                >
+
+            <!-- Image 2: Scorpio/SUV Placeholder -->
+            <img src="https://w0.peakpx.com/wallpaper/820/955/HD-wallpaper-mahindra-scorpio-black-cars-gangster-mafia-mahindra-scorpio-suv-thar-wagon-white-thumbnail.jpg"
+                 alt="Image of a Black Scorpio SUV"
+                 class="w-full max-w-sm mx-auto rounded-lg shadow-2xl shadow-white/30"
+                 onerror="this.onerror=null;this.src='https://placehold.co/400x250/333333/FFFFFF?text=Black+SUV+Placeholder';">
+        </div>
+
+    </div>
+
+    <a href="index.html" class="home-icon">⌂</a>
+
+</body>
+</html>
